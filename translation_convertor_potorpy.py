@@ -11,11 +11,7 @@ dict = {
     # start
     r'msgid ""\nmsgstr ""\n(.*)\n(.*)\n(.*)\n(.*)':         r'',
     r'\n"Plural-Forms(.*)':         r'',
-    r'\n"X-Crowdin-Pr(.*)':         r'',
-    r'\n"X-Crowdin-Pr(.*)':         r'',
-    r'\n"X-Crowdin-La(.*)':         r'',
-    r'\n"X-Crowdin-Fi(.*)':         r'',
-    r'\n"X-Crowdin-Fi(.*)':         r'',
+    r'\n"X-Crowdin(.*)':         r'',
     r'\n"Project-Id-V(.*)':         r'',
     r'\n"Content-Type(.*)':         r'',
     r'\n"Language-Tea(.*)':         r'',
