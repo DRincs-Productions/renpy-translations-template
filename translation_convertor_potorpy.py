@@ -92,6 +92,14 @@ def replacetext(search_text, replace_text, pathFile, languege):
                       r'"\n    \1 \2 "', filedata)
     filedata = re.sub(r'"\n    (.*?)_s_(.*?) "',
                       r'"\n    \1 \2 "', filedata)
+    filedata = re.sub(r'"(.*?)\n    (.*?)_s_(.*?) "',
+                      r'"\1\n    \2 \3 "', filedata)
+    filedata = re.sub(r'"(.*?)\n    (.*?)_s_(.*?) "',
+                      r'"\1\n    \2 \3 "', filedata)
+    filedata = re.sub(r'"(.*?)\n    (.*?)_s_(.*?) "',
+                      r'"\1\n    \2 \3 "', filedata)
+    filedata = re.sub(r'"(.*?)\n    (.*?)_s_(.*?) "',
+                      r'"\1\n    \2 \3 "', filedata)
     filedata = re.sub(r':\n\n    # (.*?)_s_(.*?) "',
                       r':\n\n    # \1 \2 "', filedata)
     filedata = re.sub(r':\n\n    # (.*?)_s_(.*?) "',
