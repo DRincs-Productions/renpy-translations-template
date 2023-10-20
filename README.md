@@ -24,3 +24,8 @@ At the end make a merge inside the arm of the project.
     # old "###########"
     # new "(.*)"
 ```
+
+### Check if there are a text after "
+```regex
+"(.*)"(.)(.*)\n
+```
