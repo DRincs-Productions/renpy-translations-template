@@ -31,6 +31,7 @@ dict = {
     r' \[withDissolve20\]"':        r'" with Dissolve(2.0)',
     r' \[withDissolve1\]"':         r'" with Dissolve(1)',
     r' \[withDissolvey3\]"':        r'" with Dissolve(.3)',
+    r' \[withMove151510\]"':        r'" with Move((15,0), (-15,0), .10, bounce=True, repeat=True, delay=.825)',
     r' \[multiple2\]"':             r'" (multiple=2)',
     r'msgid "\[nvl_clear\]"':       r'    # nvl clear',
     r'msgstr "\[nvl_clear\]"':      r'    nvl clear',
