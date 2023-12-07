@@ -48,6 +48,7 @@ dict = {
     r'updated at (.*?)-(.*?)-(.*?) (.*?):(.*?)\n\n# ': r'updated at \1-\2-\3 \4:\5 #|#|# # ',
     # end
     r'§§§§§§§§': r'\\'+'"',
+    r'# TODO:(.*?)\nmsgid ""\nmsgstr ""': r'# TODO:\1\nmsgid "%%&%%"\nmsgstr "%%&%%"',
 }
 
 
