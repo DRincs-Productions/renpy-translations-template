@@ -9,10 +9,11 @@ from glob import glob
 dict = {
     # search_text : replace_text
     # start
-    r'# TODO:(.*?)\nmsgid "%%&%%"\nmsgstr "%%&%%"':         r'# TODO:\1\nmsgid ""\nmsgstr ""',
+    r'msgid "%%&%%"':               r'msgid ""',
+    r'msgstr "%%&%%"':              r'msgstr ""',
     r'msgid ""\nmsgstr ""\n"(.*)\n(.*)\n(.*)\n(.*)':        r'',
     r'\n"Plural-Forms(.*)':         r'',
-    r'\n"X-Crowdin(.*)':         r'',
+    r'\n"X-Crowdin(.*)':            r'',
     r'\n"Project-Id-V(.*)':         r'',
     r'\n"Content-Type(.*)':         r'',
     r'\n"Language-Tea(.*)':         r'',
