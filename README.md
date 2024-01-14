@@ -20,9 +20,9 @@ At the end make a merge inside the arm of the project.
 ```
 
 ```regex
-    # # renpy/common/(.*)
+    # # renpy/common/$1
     # old "###########"
-    # new "(.*)"
+    # new "$2"
 ```
 
 ### Check if there are a text after "
